@@ -1,0 +1,6 @@
+%{
+  "dhcp_server": {:hex, :dhcp_server, "0.3.0", "83f7259dbf810937f33af2e69e3c300c9d2de639ee3b107d31126eed24477b0e", [:make, :mix], [{:elixir_make, "~> 0.4", [hex: :elixir_make, repo: "hexpm", optional: false]}, {:nerves_network, "~> 0.3", [hex: :nerves_network, repo: "hexpm", optional: true]}], "hexpm"},
+  "elixir_make": {:hex, :elixir_make, "0.4.1", "6628b86053190a80b9072382bb9756a6c78624f208ec0ff22cb94c8977d80060", [:mix], [], "hexpm"},
+  "nerves_network_interface": {:hex, :nerves_network_interface, "0.4.4", "200b1a84bc1a7fdeaf3a1e0e2d4e9b33e240b034e73f39372768d43f8690bae0", [:make, :mix], [{:elixir_make, "~> 0.4", [hex: :elixir_make, repo: "hexpm", optional: false]}], "hexpm"},
+  "nerves_wpa_supplicant": {:git, "https://github.com/nerves-project/nerves_wpa_supplicant.git", "2b3bb056a1594bff16b44d37876e8d599349dcb5", []},
+}
